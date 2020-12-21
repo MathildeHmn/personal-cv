@@ -1,0 +1,466 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&family=Poppins:wght@300&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+
+html {
+    scroll-behavior: smooth;
+    cursor: crosshair;
+}
+body {
+    font-family: 'Poppins', cursive;
+}
+h3 {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 0.05em;
+}
+li {
+    list-style-type: none;
+}
+.fa {
+    color: #FFDEF7;
+}
+
+/* ******************** NAVBAR ******************** */
+.navbar {
+    background-color: #383838;
+    opacity: 0.9;
+    height: 70px;
+    transition: 0.7s;
+    font-size: 1.1em;
+}
+.navbar-nav {
+    width: 80% !important;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+/* ******************** HEADER ******************** */
+header {
+    text-align: center;
+    height: 140vh;
+    background-color: #0C0C0C;
+}
+h1 {
+    padding: 120px 0 10px 0;
+    font-family: 'Homemade Apple', sans-serif;
+    font-size: 4.3em;
+    color: #707070;
+}
+#line {
+    height: 1px;
+    background-color: #707070;
+    width: 25%;
+    margin: 0 auto;
+}
+h2 {
+    padding: 20px 0 20px 0;
+    color: #707070;
+    font-size: 1.9em;
+    letter-spacing: 0.1em;
+    font-family: 'Poppins', cursive;
+}
+h2:hover {
+    color: #FFDEF7;
+}
+.typed {
+    color: #707070;
+    font-family: 'Poppins', cursive;
+    text-align: center;
+    font-size: 1.1em;
+    padding: 30px 50px;
+}
+.star {
+    color: #707070;
+    font-size: 2em;
+}
+.star:hover {
+    color: #FFDEF7;
+}
+header .button {
+    margin-top: 45px;
+}
+header .button a {
+    padding: 20px 50px;
+    width: 300px;
+    color: rgb(184, 184, 184);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 20px;
+    overflow: hidden;
+    transition: 0.2s;
+    font-family: 'Oswald', sans-serif;
+    background-color: #232323;
+}
+header .button:hover a {
+    background-color: #232323;
+    color: white;
+    border: #232323;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    text-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white, 0 0 20px #ff00a5, 0 0 30px #ff00a5, 0 0 40px #ff00a5, 0 0 55px #ff00a5, 0 0 75px #ff00a5;
+}
+
+/* ******************** LOGO NAVBAR ******************** */
+.nav-item a {
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: rgb(184, 184, 184);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+    font-family: 'Oswald', sans-serif;
+}
+.nav-item a:hover {
+    text-decoration: none;
+    color: white;
+    text-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white, 0 0 20px #ff00a5, 0 0 30px #ff00a5, 0 0 40px #ff00a5, 0 0 55px #ff00a5, 0 0 75px #ff00a5;
+}
+
+/* ******************** TAB NAVBAR ******************** */
+.onglet {
+    color: rgb(184, 184, 184);
+    font-family: 'Poppins', cursive;
+    font-size: 1em;
+    position: relative;
+    display: inline-block;
+    padding: 22px 30px;
+}
+.onglet:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/* ******************** FORMATION ******************** */
+#content {
+    background-color: #0C0C0C;
+    height: 70vh;
+}
+#formation {
+    background-color: #232323;
+    border: 2px solid #707070;
+    padding: 30px 50px;
+    width: 600px;
+    margin: 0 auto;
+}
+h3 {
+    color: #707070;
+}
+h3:hover {
+    color: #FFDEF7;
+}
+#line-formation, #line-skills, #line-experience, #line-hobbies, #line-contact {
+    height: 1px;
+    background-color: #707070;
+    width: 100%;
+    margin: 0 auto;
+}
+h6, h5 {
+    font-weight: bold;
+    font-family: 'Poppins', cursive;
+    color: #FFDEF7;
+    letter-spacing: 0.2em;
+}
+p {
+    font-family: 'Poppins', cursive;
+    color: #acacac;
+}
+
+/* ******************** SKILLS ******************** */
+#content-2 {
+    background-color: #0C0C0C;
+    height: 80vh;
+}
+#skills {
+    background-color: #232323;
+    border: 2px solid #707070;
+    padding: 30px 50px;
+    width: 800px;
+    margin: 0 auto;
+}
+.fab {
+    font-size: 3em;
+}
+.skill-item {
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skill-item-icon {
+    padding: 10px 30px;
+}
+.skill-item-icon:hover {
+    color: #FFDEF7;
+}
+.skill-item-name {
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    text-align: center;
+}
+.tools, .know-how {
+    letter-spacing: 0.1em;
+}
+
+/* ******************** EXPERIENCE ******************** */
+#content-3 {
+    background-color: #0C0C0C;
+    height: 115vh;
+}
+#experience {
+    background-color: #232323;
+    border: 2px solid #707070;
+    padding: 30px 50px;
+    width: 700px;
+    margin: 0 auto;
+}
+
+/* ******************** HOBBIES ******************** */
+#content-4 {
+    background-color: #0C0C0C;
+    height: 60vh;
+}
+#hobbies {
+    background-color: #232323;
+    border: 2px solid #707070;
+    padding: 30px 50px;
+    width: 1400px;
+    margin: 0 auto;
+}
+.pictures {
+    display: flex;
+    justify-content: center;
+}
+.flip-box-back div {
+    margin: 0 auto;
+}
+.flip-box-back p {
+    font-weight: bold;
+    padding: 80px;
+    font-size: 1.2em;
+    text-align: center;
+}
+.flip-box-back {
+    color: white;
+    transform: rotateY(180deg);
+}
+.flip-box-back, .flip-box-front {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+.flip-box {
+    overflow: hidden;
+    background-color: transparent;
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
+    perspective: 1000px;
+}
+.flip-box-inner {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+}
+.flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+}
+
+/* ******************** FOOTER ******************** */
+#content-5 {
+    background-color: #0C0C0C;
+    height: 95vh;
+}
+#contact {
+    background-color: #232323;
+    border: 2px solid #707070;
+    padding: 30px 50px;
+    width: 700px;
+    margin: 0 auto;
+}
+.footer-icons {
+    text-align: center;
+}
+.network {
+    font-size: 1.8em;
+    border: 2px solid #FFDEF7;
+    padding: 18px 22px;
+    z-index: -1 !important;
+    border-radius: 50%;
+}
+.network:hover {
+    background: #FFDEF7;
+    transition: all 0.3s ease-in-out;
+}
+.fa-linkedin:hover {
+    color: #383838;
+}
+.form-container {
+    padding-top: 20px;
+}
+#reused_form {
+    position: relative;
+    margin: 30px auto;
+}
+input {
+    font-weight: bold;
+    font-size: 0.85em;
+    width: 100%;
+    height: 50px;
+    padding: 0px 15px;
+    background: #2b2b2b;
+    outline: none;
+    color: white;
+    border: solid 2px #383838;
+    border-bottom: none;
+}
+textarea {
+    font-weight: bold;
+    width: 100%;
+    height: 110px;
+    padding: 15px;
+    background: #2b2b2b;
+    outline: none;
+    color: white;
+    border: solid 2px #383838;
+    resize: none;
+}
+textarea:hover, input:hover, form-button:hover {
+    background-color: #232323;
+    color: #FFDEF7;
+}
+input::placeholder, textarea::placeholder, input:focus::placeholder, textarea:focus::placeholder {
+    color: #707070;
+    letter-spacing: 0.1em;
+}
+.form-button {
+    background: #2b2b2b;
+    border: solid 2px #383838;
+    font-weight: bold;
+    width: 100%;
+    text-transform: uppercase;
+    padding: 20px 75px;
+    margin: 14px 0 -20px 0;
+    letter-spacing: 0.1em;
+    font-size: 1.1em;
+    color: #707070;
+}
+.form-button:hover {
+    background-color: #232323;
+    color: #FFDEF7;
+}
+#error_message, #success_message {
+    color: white;
+    border: solid 2px white;
+    max-width: 400px;
+    margin: 0 auto;
+    font-size: 0.7em;
+    font-weight: bold;
+    padding: 15px 15px 8px 15px;
+}
+.arrow {
+    font-size: 2em;
+    width: 50px;
+    margin: -20px auto;
+    padding-top: 75px;
+    animation: arrow linear 1.5s;
+    animation-iteration-count: infinite;
+}
+@keyframes arrow {
+    0% {
+        transform: translateY(0px);
+    }
+    38% {
+        transform: translateY(8px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+.arrow a {
+    border: none;
+}
+.arrow:hover i {
+    transform: scale(1.6);
+    transition: 0.5s ease-in-out;
+    color: #707070;
+}
+footer p {
+    padding-top: 50px;
+    font-size: 1em;
+    font-weight: bold;
+    letter-spacing: 0.3em;
+    text-align: center;
+    font-family: 'Homemade Apple', cursive;
+}
+
+/* ******************** MEDIA QUERIES ******************** */
+@media screen and (max-width: 900px) {
+    .navbar {
+        height: 80px;
+        font-size: 0.9em;
+    }
+    .navbar-nav {
+        margin: 0 auto;
+        justify-content: center;
+    }
+    .nav-item-1 {
+        padding-top: 15px;
+    }
+    header {
+        height: 110vh;
+    }
+    #hobbies {
+        width: 800px;
+    }
+    .flip-box-back p {
+        padding: 60px;
+        font-size: 1em;
+        text-align: center;
+    }
+    .network {
+        font-size: 1.8em;
+        border: 2px solid #FFDEF7;
+        padding: 30px 45px;
+        z-index: -1 !important;
+        border-radius: 50%;
+    }
+    .network:hover {
+        background: #FFDEF7;
+        transition: all 0.3s ease-in-out;
+    }
+}
+@media screen and (max-width: 770px) {
+    .navbar {
+        font-size: 0.8em;
+    }
+    .navbar-nav {
+        width: 80% !important;
+    }
+    .nav-item-1 {
+        padding-top: 15px;
+        width: 102px;
+    }
+    #skills {
+        width: 700px;
+    }
+    #hobbies {
+        width: 700px;
+    }
+    .flip-box-back p {
+        padding: 50px;
+        font-size: 0.9em;
+        text-align: center;
+    }
+}
