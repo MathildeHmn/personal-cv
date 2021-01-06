@@ -9,12 +9,12 @@ use FormGuide\Handlx\FormHandler;
 
 $pp = new FormHandler(); 
 
-$validator = $pp->getValidator();
-$validator->fields(['name','email'])->areRequired()->maxLength(50);
-$validator->field('email')->isEmail();
-$validator->field('message')->maxLength(6000);
+$validator = $pp -> getValidator();
+$validator -> fields(['name', 'email']) -> areRequired() -> maxLength(50);
+$validator -> field('email') -> isEmail();
+$validator -> field('message') -> maxLength(6000);
 
 // ENTRER E-MAIL ICI
-$pp->sendEmailTo('mathildehmnpro@gmail.com'); 
+$pp -> sendEmailTo('mathildehmnpro@gmail.com'); 
 
-echo $pp->process($_POST);
+echo $pp -> process($_POST);
